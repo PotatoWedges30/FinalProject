@@ -19,20 +19,20 @@ MAIN Program:
  -  Declares the Game Objects
 2. void keyPressed():
  - Called whenever a key is pressed.
- - The paddles are controlled with the keys of the keyboard:
-  - For the first player, the O and L keys are used to move the left paddle up and down.
-  For the second player, the Q and A keys are used to move the left paddle up and down.
+  - The paddles are controlled with the keys of the keyboard:
+   - For the first player, the O and L keys are used to move the left paddle up and down.
+   - For the second player, the Q and A keys are used to move the left paddle up and down.
 3. void keyReleased():
-  -  Called whenever the keys are released.
+   -  Called whenever the keys are released.
 4. void mousePressed():
-   - Call
+   - the state variable is set to 1.
 5. Void draw():
- - Background is set to 0(black background).
- - The If statement checks If state variable is equalled to 0 and if it is, the start image is displayed along with instruction on how to move the paddles.
- -  The else If statement checks if state variable is equalled to 1 and if it is, it takes the player to the next screen where the game is played.
+  - Background is set to 0(black background).
+  - The If statement checks If state variable is equalled to 0 and if it is, the start image is displayed along with instruction on how to move the paddles.
+   -  The else If statement checks if state variable is equalled to 1 and if it is, it takes the player to the next screen where the game is played.
 
-- The If statement checks If state variable is equalled to 2 and if it is, the "player 1 wins" image is displayed on the next screen.
-- The else If statement checks If state variable is equalled to 3 and if it is, the "player 2 wins" image is displayed on the next screen.
+ - The If statement checks If state variable is equalled to 2 and if it is, the "player 1 wins" image is displayed on the next screen.
+  - The else If statement checks If state variable is equalled to 3 and if it is, the "player 2 wins" image is displayed on the next screen.
 
 
 Ball Class:
@@ -40,7 +40,8 @@ Ball Class:
 
 The Net Class:
  - Net class that draws the net in the middle.
-Paddles Class:
+
+ Paddles Class:
  - Paddle class that draws the paddles and also sets the paddle speed.
 
 **Instructions On How To Use The Program:**
