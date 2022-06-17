@@ -19,9 +19,9 @@ MAIN Program:
  -  Declares the Game Objects
 2. void keyPressed():
  - Called whenever a key is pressed.
-  - The paddles are controlled with the keys of the keyboard:
-   - For the first player, the O and L keys are used to move the left paddle up and down.
-   - For the second player, the Q and A keys are used to move the left paddle up and down.
+    - The paddles are controlled with the keys of the keyboard:
+      - For the first player, the O and L keys are used to move the left paddle up and down.
+       - For the second player, the Q and A keys are used to move the left paddle up and down.
 3. void keyReleased():
    -  Called whenever the keys are released.
 4. void mousePressed():
