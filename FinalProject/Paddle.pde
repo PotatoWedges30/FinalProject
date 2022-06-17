@@ -77,8 +77,6 @@ private class Paddle {
     
   }
   
-  
-  
  public void setLeftUp(){
     leftUp = true;
     leftDown = false;
@@ -105,6 +103,5 @@ private class Paddle {
     rightDown = false;
     rightUp = false;
   }
-
   
-}
+} // End paddle class

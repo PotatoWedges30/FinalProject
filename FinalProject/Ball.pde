@@ -21,7 +21,7 @@ private class Ball {
     
     
   }
-  
+ 
     public void ballDraw() {
     ellipse(xBall,yBall,diameter, diameter);
     bounceOffPaddle();
@@ -56,6 +56,7 @@ private class Ball {
  private void score() {
     ballMove();
      ballBounce();
+   
     if ( xBall < (displayWidth*0) + diameter || xBall > displayWidth - diameter ) {
       if ( xBall < (displayWidth*0) + diameter) {
         xLeftBallGoal = true;
@@ -64,12 +65,10 @@ private class Ball {
          score1+= 10;
       }
        if ( xBall > displayWidth - diameter) {
-        //Score
         xRightBallGoal = true;
         xBall = width*1/2;
         yBall = height*1/2;
         score2+= 10;
-        
       }
     }
     
@@ -79,23 +78,13 @@ private class Ball {
       state=3;
     }
  }  
-    
-    
-   
-    
-    
-
-
-
-
-
-
+ 
+ 
   Boolean leftBallGoalGetter() {
     return xLeftBallGoal;
   }
   Boolean rightBallGoalGetter() {
     return xRightBallGoal;
   }
-   
-
+    
 }
